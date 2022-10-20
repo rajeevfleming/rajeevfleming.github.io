@@ -1,0 +1,195 @@
+/* Font from : https://fonts.google.com/specimen/Josefin+Sans */
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.ebc{
+	color: blue;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+
+
+}
+.date {
+	color: darkgreen;
+  text-align: center;
+}
+.text {
+	color: blue;
+  text-align: center;
+  background-color: lightgreen;
+}
+body
+
+/* Navbar 3 */
+
+.navbar{
+  position: relative;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+  z-index: 3;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/* Text block inside Image CSS
+Source : https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
+
+.imageText {
+  position: relative;
+  width: fit-content;
+}
+
+.img {
+  /* height: auto; 
+  width: auto; 
+  min-width:100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+/* Bottom right text */
+.box-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Image Boxing up */
+
+.row1 .row2 {
+  display: flex;
+  
+}
+
+/* Create three equal columns that sits next to each other */
+.column1 .column2 {
+  flex: 50%;
+  padding: 5px;
+}
+
+/* Table Styliing 
+https://www.w3schools.com/css/css_table_style.asp
+*/
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:hover {background-color: #86ceb3;}
+/* Media query Code for responsive design */
+
+
+  
+  
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+  .homepage .imageText .img .box-text{
+    width: 400px;
+    height: 400px;
+
+  }
+  }
+  
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+  .homepage .imageText .img .box-text{
+    width: 200px;
+    height: 200px;
+
+  }
+  }
+  
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+  .homepage .img .box-text{
+    width: 400px;
+    height: 200px;
+  }
+  }
+  
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+  .homepage .img .box-text{
+    width: 400px;
+    height: 200px;
+
+  }
+  }
+  
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .homepage .img .box-text{
+    width: 400px;
+    height: 400px;
+
+  }
+  }
+  
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .homepage .img .box-text{
+    width: 400px;
+    height: 400px;
+
+  }
+  }
+  
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  .homepage .img .box-text{
+    width: 400px;
+    height: 400px;
+
+  }
+  }
+  
