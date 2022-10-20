@@ -93,6 +93,7 @@ Source : https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
 
 .row1 .row2 {
   display: flex;
+  width: 100%
   
 }
 
