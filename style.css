@@ -97,9 +97,9 @@ Source : https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
   
 }
 
-/* Create three equal columns that sits next to each other */
+/* Create two equal columns that sits next to each other */
 .column1 .column2 {
-  flex: 50%;
+  flex: 40%;
   padding: 5px;
 }
 
