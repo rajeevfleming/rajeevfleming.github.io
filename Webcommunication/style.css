@@ -1,0 +1,141 @@
+/* Font imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.ebc{
+	color: #0074D9;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+
+
+}
+.date {
+	color: #2ECC40;;
+  text-align: center;
+}
+.description{
+  color:#aad900;
+  text-align: center;
+}
+  .author {
+    color:#aad900;
+    text-align: center;
+
+  }
+
+.text {
+	color: blue;
+  text-align: center;
+  background-color: lightgreen;
+}
+body
+
+/* Navbar Styling from W3schools https://www.w3schools.com/css/css_navbar.asp */
+
+.navbar{
+  position: relative;
+  background-color: #333;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+  z-index: 3;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+ li a:focus {
+    background-color: #04AA6D;
+    outline: none;
+  }
+/* Text block inside Image CSS
+Source : https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
+
+.imageText {
+  position: relative;
+  width: fit-content;;
+}
+
+.img {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px; 
+  
+}
+/* Bottom right text */
+.box-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.images {
+  display: flex; /* Use flexbox layout for the container */
+  flex-wrap: wrap; /* Allow the images to wrap onto multiple rows if needed */
+}
+
+/* Define the styling for each individual image */
+.image4 {
+  width: 45%; /* Set the width of each image to 50% of the container */
+  padding: 10px; /* Add some padding around each image */
+}
+
+/* Table Styliing 
+https://www.w3schools.com/css/css_table_style.asp
+*/
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:hover {background-color: #86ceb3;}
+
+
+  
+  
+ 
